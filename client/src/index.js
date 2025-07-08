@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import 'antd/dist/antd.css'; // Import Ant Design styles
+import 'antd/dist/reset.css'; // Import Ant Design styles
 import './index.css';
 import App from './App';
 import {BrowserRouter} from 'react-router-dom';
