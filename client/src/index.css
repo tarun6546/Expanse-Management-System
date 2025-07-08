@@ -3,3 +3,14 @@
   margin: 0;
   box-sizing: border-box;
 }
+.content{
+  height:80vh
+
+}
+.navbar{
+  background-color: rgb(80, 53, 12);
+  padding: 10px;
+  
+ 
+  
+}

@@ -1,11 +1,16 @@
-
+import { Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
-    <div className="container-fluid">
-      <h1 className="text-center">Tarun Varshney</h1>
+    <>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        
+      </Routes>
+    </>
       
-    </div>
+    
   );
 }
 
